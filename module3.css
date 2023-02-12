@@ -1,0 +1,118 @@
+index.html
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.navbar{
+
+border: none;
+background-color: rgb(24, 93, 150);
+color: #121761;
+}
+body{
+	background-color: #6fd2eb0c;
+	color: rgb(0, 1, 3);
+}
+.glyphicon{
+	font-size: 30px;
+	color:#61122F; 
+}
+
+.center{
+	width: 90%;
+	background-color: grey;
+
+}
+.container
+{
+	background-color: grey;
+}
+.text-center{
+	font-size: 30px;
+}
+
+h2{
+	text-align: center;
+}
+#myNavbar ul li a {
+	color: #61122F;
+}
+.navbar-brand{
+font-size: 30px;	
+}
+#chi {
+    	background-color: palevioletred;
+        border: 1px solid black;
+    } 
+    #bee{
+    	background-color: indianred;
+    	border: 1px solid black;
+    }
+    #sus{
+    	background-color: lightgoldenrodyellow;
+    	border: 1px solid black;
+    }
+    @media (min-width: 1200px) {
+        #first, #second, #third{
+            float: left;
+            margin: 1px;
+        }
+        #first {
+            width:33%;
+            border: 1px solid black;
+            background-color:lightgrey ;
+        }
+        #second {
+            width: 33%;
+            border: 1px solid black;
+            background-color:lightgrey ;
+        }
+        #third {
+            width: 33%;
+            border: 1px solid black;
+            background-color:lightgrey ;
+        }
+    
+    }
+    @media (min-width: 992px) and (max-width: 1199px){
+        #first, #second, #third{
+            float: left;
+            margin: 4px;
+        }
+        #first {
+            width:49%;
+            border: 1px solid black;
+            background-color:lightgrey ;
+        }
+        #second {
+            width: 49%;
+            border: 1px solid black;
+            background-color:lightgrey ;
+        }
+        #third {
+            width: 100%;
+            border: 1px solid black;
+            background-color:lightgrey ;
+        }
+    
+    }
+    @media (max-width: 991px) {
+        #first, #second, #third{
+            margin: 4px;
+        }
+        #first {
+            width:100%;
+            border: 1px solid black;
+            background-color:lightgrey ;
+        }
+        #second {
+            width: 100%;
+            border: 1px solid black;
+            background-color:lightgrey ;
+        }
+        #third {
+            width: 100%;
+            border: 1px solid black;
+            background-color:lightgrey ;
+        }
